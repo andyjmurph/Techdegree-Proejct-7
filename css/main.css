@@ -21,7 +21,8 @@
   font-family: 'Varela Round', sans-serif;
   font-size: 1em;
   line-height: 1.3;
-  color: #37393d; }
+  color: #37393d;
+  margin-bottom: 50px; }
 
 .highlight {
   color: orange; }
