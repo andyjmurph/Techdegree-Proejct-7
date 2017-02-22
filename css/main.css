@@ -1,7 +1,8 @@
 /* --- Base styles --- */
 #video-container {
   width: 100%;
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  max-width: 900px; }
   @media (min-width: 768px) {
     #video-container {
       width: 80%;
@@ -9,17 +10,28 @@
 
 .container {
   width: 90%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  max-width: 900px; }
   @media (min-width: 768px) {
     .container {
       width: 80%; } }
 
 /* --- Text styles --- */
-#captions {
+#caption-wrapper {
   font-family: 'Varela Round', sans-serif;
   font-size: 1em;
   line-height: 1.3;
   color: #37393d; }
+
+.highlight {
+  color: orange; }
+
+#caption-wrapper span:hover {
+  cursor: pointer;
+  color: #676b73; }
+
+#caption-wrapper span[class*="highlight"]:hover {
+  color: #ffc966; }
 
 /* --- Media Player --- */
 .mejs__controls,
